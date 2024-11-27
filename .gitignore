@@ -1,26 +1,26 @@
 # Node.js
-node_modules/          # Dossier des dépendances Node.js
-npm-debug.log*         # Logs de débogage npm
-yarn-error.log         # Logs d'erreurs yarn
-.env                   # Fichiers des variables d'environnement
+node_modules
+npm-debug.log*
+yarn-error.log
+.env
 
 # SQLite
-*.sqlite               # Tous les fichiers SQLite
-*.sqlite-journal       # Journaux SQLite
+*.sqlite
+*.sqlite-journal
 
 # Logs
-logs/                  # Dossier des logs (si créé)
-*.log                  # Tous les fichiers .log
+logs/
+*.log
 
 # Système d'exploitation
-.DS_Store              # macOS
-Thumbs.db              # Windows
+.DS_Store
+Thumbs.db
 
 # IDE / éditeurs
-.vscode/               # Paramètres Visual Studio Code
-.idea/                 # Paramètres WebStorm / IntelliJ IDEA
-*.swp                  # Fichiers de swap (vim)
-*.bak                  # Fichiers de sauvegarde
+.vscode/
+.idea/
+*.swp
+*.bak
 
 # Tests
-coverage/              # Dossiers de couverture de tests
+coverage/

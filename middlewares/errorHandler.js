@@ -1,12 +1,28 @@
-const errorHandler = (err, req, res, next) => {
-    const statusCode = err.statusCode || 500;
-    const message = err.message || 'An unexpected error occurred';
+const AppError = require('../utils/AppError');
 
-    res.status(statusCode).json({
-        status: 'error',
-        statusCode,
-        message,
-    });
+exports.getAllRestaurants = async (req, res, next) => {
+  try {
+    const restaurants = await Restaurant.findAll();
+
+    if (!restaurants.length) {
+      throw new AppError('No restaurants found', 404);
+    }
+
+    res.status(200).json(restaurants);
+  } catch (err) {
+    next(err);
+  }
 };
 
-export default errorHandler;
+exports.createRestaurant = async (req, res, next) => {
+  try {
+    if (!req.body.name || !req.body.address) {
+      throw new AppError('Name and address are required', 400);
+    }
+
+    const restaurant = await Restaurant.create(req.body);
+    res.status(201).json(restaurant);
+  } catch (err) {
+    next(err);
+  }
+};

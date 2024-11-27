@@ -10,12 +10,24 @@ const Restaurant = sequelize.define('Restaurant', {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  lat: DataTypes.FLOAT,
-  lng: DataTypes.FLOAT,
-  description: DataTypes.TEXT,
-  phone: DataTypes.STRING,
-  website: DataTypes.STRING,
-  instagram: DataTypes.STRING,
+  lat: {
+    type: DataTypes.FLOAT,
+  },
+  lng: {
+    type: DataTypes.FLOAT,
+  },
+  description: {
+    type: DataTypes.STRING,
+  },
+  phone: {
+    type: DataTypes.STRING,
+  },
+  website: {
+    type: DataTypes.STRING,
+  },
+  instagram: {
+    type: DataTypes.STRING,
+  }
 });
 
 module.exports = Restaurant;

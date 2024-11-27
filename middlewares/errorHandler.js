@@ -1,28 +1,11 @@
-const AppError = require('../utils/AppError');
-
-exports.getAllRestaurants = async (req, res, next) => {
-  try {
-    const restaurants = await Restaurant.findAll();
-
-    if (!restaurants.length) {
-      throw new AppError('No restaurants found', 404);
-    }
-
-    res.status(200).json(restaurants);
-  } catch (err) {
-    next(err);
-  }
+const errorHandler = (err, req, res, next) => {
+  const statusCode = err.statusCode || 500;
+  const message = err.message || 'Internal Server Error';
+  
+  res.status(statusCode).json({
+    message,
+    stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
+  });
 };
 
-exports.createRestaurant = async (req, res, next) => {
-  try {
-    if (!req.body.name || !req.body.address) {
-      throw new AppError('Name and address are required', 400);
-    }
-
-    const restaurant = await Restaurant.create(req.body);
-    res.status(201).json(restaurant);
-  } catch (err) {
-    next(err);
-  }
-};
+module.exports = errorHandler;

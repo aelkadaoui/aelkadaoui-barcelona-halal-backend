@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Cera 23",
+    "address": "Carrer de la Cera, 23, 08001 Barcelona, Spain",
+    "lat": 41.3763,
+    "lng": 2.1742,
+    "description": "Contemporary Mediterranean restaurant offering creative tapas & cocktails in a relaxed setting.",
+    "phone": "+34 933 29 81 60",
+    "website": "http://www.cera23.com",
+    "instagram": "https://www.instagram.com/cera23bcn/"
+  },
+  {
+    "name": "El Nacional",
+    "address": "Passeig de Gràcia, 24 Bis, 08007 Barcelona, Spain",
+    "lat": 41.3918,
+    "lng": 2.1645,
+    "description": "A large, upscale food hall serving a variety of traditional Spanish dishes, tapas & drinks.",
+    "phone": "+34 934 88 45 83",
+    "website": "https://www.elnacionalbcn.com",
+    "instagram": "https://www.instagram.com/elnacionalbcn/"
+  },
+  {
+    "name": "Tickets",
+    "address": "Avinguda del Paral·lel, 164, 08015 Barcelona, Spain",
+    "lat": 41.3761,
+    "lng": 2.1607,
+    "description": "A Michelin-starred restaurant offering creative tapas and modern interpretations of classic Spanish dishes.",
+    "phone": "+34 933 18 25 30",
+    "website": "https://www.ticketsbar.es",
+    "instagram": "https://www.instagram.com/ticketsbarbcn/"
+  },
+  {
+    "name": "Cervecería Catalana",
+    "address": "Carrer de Mallorca, 236, 08008 Barcelona, Spain",
+    "lat": 41.3996,
+    "lng": 2.1603,
+    "description": "Popular bar and tapas restaurant serving a wide variety of traditional Spanish tapas and seafood dishes.",
+    "phone": "+34 934 15 32 45",
+    "website": "https://www.cerveceriacatalana.com",
+    "instagram": "https://www.instagram.com/cerveceriacatalana/"
+  },
+  {
+    "name": "Can Culleretes",
+    "address": "Carrer d'en Quintana, 5, 08002 Barcelona, Spain",
+    "lat": 41.3793,
+    "lng": 2.1751,
+    "description": "One of Barcelona's oldest restaurants, serving classic Catalan cuisine in a charming, historic setting.",
+    "phone": "+34 933 18 53 47",
+    "website": "http://www.culleretes.com",
+    "instagram": "https://www.instagram.com/canculleretes/"
+  },
+  {
+    "name": "Disfrutar",
+    "address": "Carrer de Villarroel, 163, 08036 Barcelona, Spain",
+    "lat": 41.3862,
+    "lng": 2.1617,
+    "description": "A Michelin-starred fine dining restaurant offering innovative, seasonal Mediterranean cuisine with a creative twist.",
+    "phone": "+34 933 48 68 96",
+    "website": "https://www.disfrutarbarcelona.com",
+    "instagram": "https://www.instagram.com/disfrutarbarcelona/"
+  },
+  {
+    "name": "La Paradeta",
+    "address": "Carrer de la Pau, 12, 08002 Barcelona, Spain",
+    "lat": 41.3760,
+    "lng": 2.1822,
+    "description": "A casual seafood restaurant where you can choose fresh seafood to be cooked on the spot.",
+    "phone": "+34 933 42 74 56",
+    "website": "http://www.laparadeta.com",
+    "instagram": "https://www.instagram.com/laparadeta/"
+  }
+]

@@ -1,10 +1,10 @@
 {
   "name": "barcelona-halal-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "npm run start"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,11 +14,13 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "seed": "^0.4.4",
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
     "supertest": "^7.0.0"
   }
 }

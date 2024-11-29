@@ -1,6 +1,6 @@
 # Barcelona Halal - Backend
 
-This is the backend service for the Barcelona Halal Finder application. It provides RESTful APIs for managing and retrieving restaurant data.
+This is the backend service for the Barcelona Halal application. It provides RESTful APIs for managing and retrieving restaurant data.
 
 ---
 

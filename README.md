@@ -22,7 +22,7 @@ This is the backend service for the Barcelona Halal application. It provides RES
 1. Clone the repository:
    ```bash
    git clone <repo-url>
-   cd barcelona-halal-finder-backend
+   cd barcelona-halal-backend
    ```
 2. Install dependencies:
    ```bash
